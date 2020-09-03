@@ -28,11 +28,7 @@ public class Conta {
     }
 
     public Conta(String numero) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Número da conta: ");
-        this.numero = sc.nextLine();
-        sc.close();
-
+        this.numero = numero;
         this.saldo = 0;
     }
 
