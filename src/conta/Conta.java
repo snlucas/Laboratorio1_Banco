@@ -1,5 +1,4 @@
 package src.conta;
-import java.util.Scanner;
 
 
 public class Conta {
